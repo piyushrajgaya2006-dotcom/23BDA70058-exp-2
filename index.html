@@ -1,0 +1,112 @@
+<!-- Experiment-2 : UI Components using HTML & CSS -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Experiment-2 UI Components</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f4f4f4;
+        }
+        .navbar {
+            background: #333;
+            color: white;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .card, .form {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 6px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        }
+        button {
+            padding: 8px 15px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input, select {
+            padding: 8px;
+            width: 100%;
+            margin: 8px 0;
+        }
+        .rating span {
+            font-size: 22px;
+            cursor: pointer;
+            color: gray;
+        }
+        .rating span:hover,
+        .rating span:hover ~ span {
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Copied Component from Exp-1 -->
+<div class="navbar">My Application</div>
+
+<!-- Copied Component from Exp-1 -->
+<div class="card">
+    <h3>Card Component</h3>
+
+    <!-- UI Components -->
+    <button>Submit</button><br><br>
+
+    <input type="text" placeholder="Enter Name">
+
+    <select>
+        <option>Select Option</option>
+        <option>Option 1</option>
+        <option>Option 2</option>
+    </select>
+
+    <div class="rating">
+        <span>★</span>
+        <span>★</span>
+        <span>★</span>
+        <span>★</span>
+        <span>★</span>
+    </div>
+
+    <label>
+        <input type="checkbox"> Accept Terms
+    </label>
+</div>
+
+<!-- Copied Component from Exp-1 -->
+<div class="form">
+    <h3>Form Component</h3>
+
+    <!-- UI Components -->
+    <input type="email" placeholder="Enter Email">
+
+    <select>
+        <option>Select Course</option>
+        <option>BCA</option>
+        <option>B.Tech</option>
+    </select>
+
+    <label>
+        <input type="checkbox"> Subscribe Newsletter
+    </label><br><br>
+
+    <button>Register</button>
+
+    <div class="rating">
+        <span>★</span>
+        <span>★</span>
+        <span>★</span>
+        <span>★</span>
+        <span>★</span>
+    </div>
+</div>
+
+</body>
+</html>
